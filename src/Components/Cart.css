@@ -1,0 +1,31 @@
+.cart-page{
+    padding: 3rem 7rem;
+    display: flex;
+}
+.cart-details-section{
+    width: 50%;
+}
+.cart-img-section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-page-img{
+    width: 70%;
+}
+.cart-table{
+    margin: 2rem 0;
+}
+.delete-icon{
+    height: 30px;
+    width: 30px;
+    padding: 0.2rem;
+    border: 1px solid black;
+    
+    border-radius: 8px;
+}
+.delete-icon:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.5);
+}

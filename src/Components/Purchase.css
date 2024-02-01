@@ -1,0 +1,39 @@
+
+.purchase-product-img{
+    height: 150px;
+    width: 148px;
+    border-radius: 12px;
+}
+.purchases-price{
+    font-weight: 700;
+    color: rgb(13,110,253);
+    text-align: center;
+    margin-top: 1rem;
+}
+.purchase-page{
+    padding: 3rem 7rem;
+    position: relative;
+}
+.purchases-con{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin: 4rem;
+    background-color: #E2F2FF;
+    padding: 2rem 4rem;
+    border-radius: 16px;
+}
+.purchase-total-price{
+    position: absolute;
+    top: 8%;
+    left: 78%;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(13, 109, 253, 0.552);
+}
+.purchase-total-price span{
+    font-size: 24px;
+    color: rgb(13,110,253);
+    font-weight: bold;
+}

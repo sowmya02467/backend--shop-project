@@ -1,0 +1,39 @@
+
+.shop-page{
+    height: 100vh;
+    display: flex;
+}
+.shop-item{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shop-item img{
+    height: 55%;
+}
+.shop-button{
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 300px;
+    border: none;
+    font-weight: 700;
+}
+.shop-button:hover{
+    cursor: pointer;
+}
+.shopper-section{
+    background-color: #E2F2FF;
+}
+.seller-section{
+    background-color: #1564C1;
+}
+.seller-btn{
+    background-color: #E2F2FF;
+    color: #1564C1;
+}
+.shopper-btn{
+    background-color: #1564C1;
+    color: #E2F2FF;
+}
